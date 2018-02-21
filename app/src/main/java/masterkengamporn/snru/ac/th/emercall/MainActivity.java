@@ -49,15 +49,15 @@ public class MainActivity extends AppCompatActivity {
 
     }   //Main Method
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (actionBarDrawerToggle.onOptionsItemSelected(item)); {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//
+//        if (actionBarDrawerToggle.onOptionsItemSelected(item)); {
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
