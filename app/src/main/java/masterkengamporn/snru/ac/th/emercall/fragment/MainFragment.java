@@ -50,6 +50,22 @@ public class MainFragment extends Fragment{
             }
         });
         // For station 2
+        ImageView station2ImageView = getView().findViewById(R.id.imageViewStation2);
+        station2ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag,"You click image station2");
+                callstaion("2222");
+            }
+        });
+        TextView stationTextView2 = getView().findViewById(R.id.textViewStation2);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag,"You click image Station2" + getString(R.string.station2));
+                callstaion("2222");
+            }
+        });
 
         // For station 3
 
