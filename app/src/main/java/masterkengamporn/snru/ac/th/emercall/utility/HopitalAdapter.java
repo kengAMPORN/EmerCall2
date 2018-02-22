@@ -53,11 +53,11 @@ public class HopitalAdapter extends BaseAdapter{
 
 
         ImageView imageView = view1.findViewById(R.id.imageListView);
-        TextView titleTextVioew = view1.findViewById(R.id.imageListView);
-        TextView phoneTextView = view1.findViewById(R.id.textViewPhone);
+        TextView titleTextView = view1.findViewById(R.id.textViewTitle);
+        TextView phoneTextView = view.findViewById(R.id.textViewPhone);
 
         imageView.setImageResource(ints[i]);
-        titleTextVioew.setText(titleStrings[i]);
+        titleTextView.setText(titleStrings[i]);
         phoneTextView.setText(phoneStrings[i]);
 
 

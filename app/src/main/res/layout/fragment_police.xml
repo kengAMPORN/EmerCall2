@@ -133,6 +133,7 @@
 
                 <!--station4-->
                 <ImageView
+                    android:id="@+id/imageViewStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
@@ -141,6 +142,7 @@
                     android:src="@drawable/station4" />
                 <!--Title-->
                 <TextView
+                    android:id="@+id/textViewStation4"
                     android:layout_alignParentBottom="true"
                     android:padding="5dp"
                     android:gravity="center_horizontal"
